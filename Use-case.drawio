@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" modified="2023-11-10T17:08:28.569Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="AjSqMQJZ9ajyaFZnfCsK" version="22.1.0" type="device">
+  <diagram id="vh4FLa1INRKpO2ruyWxA" name="Stránka-">
+    <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l1Fvgf4R_vLhfgcNa28f-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="l1Fvgf4R_vLhfgcNa28f-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1Fvgf4R_vLhfgcNa28f-1" value="Neregistrovaný" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1Fvgf4R_vLhfgcNa28f-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="330" as="sourcePoint" />
+            <mxPoint x="135" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1Fvgf4R_vLhfgcNa28f-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="l1Fvgf4R_vLhfgcNa28f-3" target="l1Fvgf4R_vLhfgcNa28f-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l1Fvgf4R_vLhfgcNa28f-3" value="Přihlášený" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1Fvgf4R_vLhfgcNa28f-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="200" as="sourcePoint" />
+            <mxPoint x="135" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1Fvgf4R_vLhfgcNa28f-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="l1Fvgf4R_vLhfgcNa28f-4" target="l1Fvgf4R_vLhfgcNa28f-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l1Fvgf4R_vLhfgcNa28f-4" value="Technolog" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1Fvgf4R_vLhfgcNa28f-6" value="UC2 Ovládání v manuálním&lt;br&gt;režimu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="245" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l1Fvgf4R_vLhfgcNa28f-7" value="UC3 Ovládání v automatickém&lt;br&gt;režimu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="375" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l1Fvgf4R_vLhfgcNa28f-8" value="UC1 Konfigurace systému" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="115" width="200" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
