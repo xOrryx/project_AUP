@@ -6,8 +6,7 @@ clc
 clear
 close all
 
-%% IMPORT
-previousTrace = importfile("previousTrace.csv");
+
 
 %% Plot the imported data
 
@@ -38,8 +37,4 @@ title("S posunem");
 
 % staticka soustava
 % poly = 2, nula 1 -> soustava druheho radu a je staticka
-% acc fit = 98.83% - vice nejde kvuli zasumenem vystupu
-
-%% load the transfer function
-
-load("identTransferFun.mat");
+% acc fit = 98.85% - vice nejde kvuli zasumenem vystupu
