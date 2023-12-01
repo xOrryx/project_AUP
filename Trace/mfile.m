@@ -26,20 +26,22 @@ title("Bez posunu");
 
 %% pocatecni podminky na f(0) = 0
 
-newTrace = previousTrace(:, 3) - 23;
+newTrace = previousTrace(:, 3) - mean(previousTrace(1:1121, 3));
 
 figure(2);
 plot(k, newTrace)
 hold on
 plot(k, previousTrace(:, 4))
-xlabel("time [s]");
-ylabel("temperature [°C]")
-title("S posunem");
+xlabel("čas [s]");
+ylabel("teplota [°C]")
+title("Průběh ohřevu s f(0) = 0");
+legend("Odezva systému", "Vstupní velíčina");
 
-% staticka soustava
 % poly = 2, nula 1 -> soustava druheho radu a je staticka
 % acc fit = 98.83% - vice nejde kvuli zasumenem vystupu
 
 %% load the transfer function
 
 load("identTransferFun.mat");
+
+Fs = idtf(tf12.Numerator, tf12.Denominator)
